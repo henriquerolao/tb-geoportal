@@ -114,9 +114,9 @@ services:
       file: docker-compose-lib.yaml
       service: tools
 
-  # db:
-  #   extends:
-  #     file: docker-compose-lib.yaml
-  #     service: db
-  #   volumes:
-  #     - postgresql_data:/var/lib/postgresql/data
+  db:
+    extends:
+      file: docker-compose-lib.yaml
+      service: db
+    volumes:
+      - postgresql_data:/var/lib/postgresql/data
