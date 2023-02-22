@@ -8,16 +8,16 @@ Checkout
 
 .. code::
 
-   git clone git@github.com:camptocamp/TB.git
-
-   cd TB
+   git clone https://github.com/henriquerolao/tb-geoportal.git
+   cd tb-geoportal
 
 Build
 -----
 
 .. code::
 
-  ./build
+  sudo python3 build
+  sudo docker-compose down
 
 Run
 ---
